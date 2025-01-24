@@ -2,22 +2,14 @@
 
 Query information about Chinese holidays
 
-### Tools
+## Tools
 
 1. `get-all-holidays`: Get all holidays for a year
 2. `is-holiday`: Check if a date is a holiday
 
-## Quickstart
+## Configuration
 
-### Install
-
-#### Claude Desktop
-
-On MacOS: `~/Library/Application\ Support/Claude/claude_desktop_config.json`
-On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
-
-* Development/Unpublished Servers Configuration
-
+### 1. Development/Unpublished Servers Configuration: 
   ```json
   {
     "mcpServers": {
@@ -33,9 +25,7 @@ On Windows: `%APPDATA%/Claude/claude_desktop_config.json`
     }
   }
   ```
-
-* Published Servers Configuration
-
+### 2. Published Servers Configuration
   ```json
   {
     "mcpServers": {
